@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i');
+/*.......................................
+	Template Name: Pizzahat HTML5 Restaurant Template
+	Template URI: http://peridoicitems.com/
+	Descript: Pizzahat HTML5 Restaurant Template build for Restaurant, Cafe, Hotel.
+	Author: Periodicitems
+	Author URI: http://peridoicitems.com/
+.........................................
+	CSS INDEX
+	=========
+	1. Theme Default CSS
+.........................................*/
+/*.......................................
+1. Template Default CSS
+  1.1 Template Variable CSS
+----------------------------------------*/
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: baseline;
+  line-height: 22px;
+  font-weight: 400;
+}
+/*....................................
+1.1 Reset CSS
+....................................*/
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.center {
+  /* for div */
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+::-moz-selection {
+  background: #00c3ff;
+  text-shadow: none;
+}
+::selection {
+  background: #00c3ff;
+  text-shadow: none;
+}
+.browserupgrade {
+  margin: 26px 0;
+  background: #00c3ff;
+  color: $333333;
+  padding: 26px 0;
+}
+/*.......................................
+1.1 Template Variable CSS
+.......................................*/
+/*.....................................
+2. Header Start Here
+.....................................*/
+header .header-top-area {
+  background: #000000;
+  padding: 30px 0;
+}
+header .header-top-area .header-top-social-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header .header-top-area .header-top-social-area ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+header .header-top-area .header-top-social-area ul li a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #e7272d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+header .header-top-area .header-top-social-area ul li a:hover {
+  background: #e7272d;
+}
+header .header-top-area .header-top-social-area ul li a i {
+  color: #ffffff;
+}
+header .header-top-area .logo-area a {
+  display: block;
+  text-align: center;
+}
+header .header-top-area .header-top-right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border-bottom: 1px solid @primary-color;*/
+  position: relative;
+}
+header .header-top-area .header-top-right ul:after {
+  /* verticle separator */
+  position: absolute;
+  left: 0px;
+  bottom: 4px;
+  width: 240px;
+  height: 1px;
+  content: "";
+  background: #e7272d;
+}
+header .header-top-area .header-top-right ul li {
+  display: inline-block;
+  color: #ffffff;
+}
+header .header-top-area .header-top-right ul li form {
+  position: relative;
+}
+header .header-top-area .header-top-right ul li form input {
+  background: transparent;
+  border: none;
+}
+header .header-top-area .header-top-right ul li form input:placeholder {
+  color: #ffffff;
+}
+header .header-top-area .header-top-right ul li form input:focus {
+  /* remove outline */
+  outline: none;
+}
+header .header-top-area .header-top-right ul li form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border: none;
+}
+header .header-top-area .header-top-right ul li form button:focus {
+  /* remove outline */
+  outline: none;
+}
+header .header-top-area .header-top-right ul li form button i {
+  color: #ffffff;
+}
+header .header-top-area .header-top-right ul li .cart-area {
+  text-align: right;
+  position: relative;
+}
+header .header-top-area .header-top-right ul li .cart-area:after {
+  /* verticle separator */
+  position: absolute;
+  left: -19px;
+  bottom: 0;
+  width: 1px;
+  height: 40px;
+  content: "";
+  background: #e7272d;
+}
+header .header-top-area .header-top-right ul li .cart-area a {
+  display: block;
+  position: relative;
+  color: #ffffff;
+}
+header .header-top-area .header-top-right ul li .cart-area a span {
+  position: absolute;
+  top: -40px;
+  left: -2;
+  font-size: 16px;
+  font-weight: 700;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background: #e7272d;
+}
+header .header-top-area .header-top-right ul li .cart-area a:after {
+  position: absolute;
+  top: -27px;
+  left: -17px;
+  width: 20px;
+  height: 20px;
+  content: "\f217";
+  font-family: FontAwesome;
+  display: inline-block;
+  vertical-align: middle;
+}
